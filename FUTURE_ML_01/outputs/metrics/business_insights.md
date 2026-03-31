@@ -1,0 +1,6 @@
+- Sales trend: total yearly sales changed by 8.11% from 2022 to 2023, which signals whether the business is growing or flattening.
+- Peak month: December generated the highest cumulative sales at 146048.27, so inventory and staffing should be strongest in that window.
+- Best-performing store: Store 9 contributed the highest overall sales at 178411.63, making it a useful benchmark for other locations.
+- Promotion impact: average sales on promo days were 13.11% higher than non-promo days, which supports targeted campaigns during slower periods.
+- Holiday impact: average sales on holidays were 17.16% different from regular days, so holiday inventory plans should reflect this demand shift.
+- Forecast outlook: the next 30 days average 2314.67 sales per day, which can guide replenishment and short-term revenue targets.
