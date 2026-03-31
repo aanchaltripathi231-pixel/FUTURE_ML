@@ -12,16 +12,10 @@ Production-style machine learning project for sales and demand forecasting using
 - Test RMSE: `6.4132`
 - Forecast horizon: `30 days`
 
-## Why This Repo Is Reviewer Friendly
-
-This repository is structured so a recruiter, interviewer, or evaluator can quickly verify:
-
-- the business problem
-- the data source
-- the forecasting pipeline
-- the evaluation metrics
-- the future sales output
-- the visual presentation layer
+## What I focused on
+- Building an end-to-end ML project
+- Learning time-series forecasting
+- Applying ML to a business use case
 
 ## Final Outcome
 
