@@ -6,7 +6,7 @@ Machine learning project repository focused on practical, end-to-end business us
 
 ### FUTURE_ML_01: Sales & Demand Forecasting for Businesses
 
-This project forecasts future sales from historical time-series data and packages the result in a reviewer-friendly way with:
+This project uses historical sales data to predict future demand using machine learning techniques:-
 
 - a complete notebook
 - reusable production-style Python pipeline
@@ -17,7 +17,7 @@ This project forecasts future sales from historical time-series data and package
 
 ## Quick Review Path
 
-If you are reviewing this repository on GitHub, start here:
+Start here:
 
 1. `FUTURE_ML_01/README.md`
 2. `FUTURE_ML_01/outputs/dashboard/executive_dashboard.png`
@@ -50,5 +50,5 @@ FUTURE_ML/
 
 ## Notes
 
-- The repository includes generated outputs so results can be reviewed directly from GitHub.
-- The project is designed to be easy to inspect from both GitHub and VS Code.
+- I have included outputs so the results can be quickly reviewed without running the code.
+- The project is organized to make it easy to explore and understand.
