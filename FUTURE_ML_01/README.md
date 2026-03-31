@@ -1,6 +1,6 @@
 # FUTURE_ML_01
 
-Production-style machine learning project for sales and demand forecasting using historical time-series data.
+Machine learning project for sales and demand forecasting using historical time-series data.
 
 ## Project Snapshot
 
@@ -37,7 +37,7 @@ The project forecasts the next 30 days of sales from historical store-level time
 
 ### Executive Dashboard
 
-This is the main image a reviewer can inspect directly from the repository:
+Preview of the project output:
 
 ![Executive Dashboard](outputs/dashboard/executive_dashboard.png)
 
@@ -141,7 +141,7 @@ Regenerate the notebook:
 python build_notebook.py
 ```
 
-## Files Reviewers Should Check First
+## Key Files:-
 
 - `README.md`
 - `notebooks/sales_demand_forecasting.ipynb`
@@ -162,6 +162,6 @@ This project helps a business:
 
 ## Notes
 
-- The notebook is included in Jupyter style for interview presentation.
-- The Python pipeline is separated into reusable functions for cleaner engineering quality.
-- The repository includes generated outputs so reviewers can inspect the result without running the code first.
+- I have included the notebook to clearly show the complete workflow.
+- The code is structured into reusable functions for better organization.
+- Outputs are added so the results can be easily viewed without running the code.
