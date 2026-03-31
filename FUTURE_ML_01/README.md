@@ -53,7 +53,7 @@ Future 30-day forecast:
 
 ## Power BI / Tableau Ready Outputs
 
-The repository includes clean export files so the same project can be presented in BI tools:
+Outputs are saved in CSV format so they can be used for visualization or dashboards:-
 
 - `outputs/dashboard/dashboard_kpi_summary.csv`
 - `outputs/dashboard/dashboard_actual_vs_predicted.csv`
@@ -62,14 +62,7 @@ The repository includes clean export files so the same project can be presented 
 - `outputs/dashboard/dashboard_store_summary.csv`
 - `outputs/dashboard/dashboard_model_metrics.csv`
 
-Recommended BI dashboard layout:
 
-- KPI cards for best model, MAE, RMSE, top store, historical sales, forecast total
-- line chart for historical sales
-- line chart for actual vs predicted sales
-- line chart for 30-day forecast
-- bar chart for top stores
-- monthly sales trend view
 
 ## Repository Structure
 
