@@ -1,6 +1,6 @@
 # FUTURE_ML_02
 
-Support Ticket Classification & Prioritization project built in a simple, interview-friendly way using NLP and classical machine learning.
+This project focuses on classifying and prioritizing support tickets using NLP and basic machine learning techniques in a simple and practical way.
 
 ## Problem Statement
 
@@ -94,24 +94,26 @@ FUTURE_ML_02/
 
 ## Results Summary
 
-After running the training pipeline, check these files first:
+After running the project, the main outputs are saved in the `outputs/` folder.
 
-- `outputs/metrics/best_model_summary.csv`
-- `outputs/metrics/model_comparison.csv`
-- `outputs/metrics/category_classification_report.csv`
-- `outputs/metrics/priority_classification_report.csv`
-- `outputs/predictions/predictions.csv`
-- `outputs/visuals/category_confusion_matrix.png`
-- `outputs/visuals/priority_confusion_matrix.png`
+Some useful files to look at:
 
-Best result from the latest run:
+- `metrics/best_model_summary.csv` – shows the final selected model
+- `metrics/model_comparison.csv` – compares performance of different models
+- `metrics/category_classification_report.csv` – evaluation for ticket category prediction
+- `metrics/priority_classification_report.csv` – evaluation for priority prediction
+- `predictions/predictions.csv` – final predicted results
+- `visuals/category_confusion_matrix.png` – confusion matrix for category classification
+- `visuals/priority_confusion_matrix.png` – confusion matrix for priority classification
 
-- Category model: `Random Forest + Bag of Words`
-- Category macro F1: about `0.2516`
-- Priority model: `Naive Bayes + Bag of Words`
-- Priority macro F1: about `0.3359`
+### Best Results (from latest run)
 
-The scores are not extremely high because this dataset is fairly synthetic and several ticket classes overlap a lot in wording. I kept the project honest and saved the real evaluation outputs instead of hiding that.
+- Category model: Random Forest (Bag of Words)
+- Category macro F1: ~0.25  
+- Priority model: Naive Bayes (Bag of Words)  
+- Priority macro F1: ~0.34  
+
+The scores aren’t very high since the dataset is quite synthetic and many ticket categories have similar wording. I’ve kept the results as they are to reflect the actual model performance instead of over-tuning or filtering outputs.
 
 ## Visual Outputs
 
@@ -131,27 +133,18 @@ The scores are not extremely high because this dataset is fairly synthetic and s
 
 ![Priority Confusion Matrix](outputs/visuals/priority_confusion_matrix.png)
 
-## How To Run
+## How to Run
 
-Install required libraries if needed:
+1. Install required libraries:
+   python -m pip install pandas numpy scikit-learn nltk matplotlib joblib
 
-```powershell
-python -m pip install pandas numpy scikit-learn nltk matplotlib joblib
-```
+2. Run the training script:
+   python -m src.model_training
 
-Run the full training pipeline:
+3. (Optional) Try prediction on a sample ticket:
+   python -m src.predict
 
-```powershell
-cd FUTURE_ML_02
-python -m src.model_training
-```
-
-Predict a new ticket:
-
-```powershell
-python -m src.predict --subject "Payment failed" --text "My payment failed twice and I need help immediately."
-```
-
+   
 ## How This Helps Businesses
 
 This project can help businesses:
@@ -164,6 +157,7 @@ This project can help businesses:
 
 ## Notes
 
-- This project is beginner-friendly on purpose.
-- The code is modular so each step is easy to understand.
-- The notebook version is included for interview and internship presentation.
+- Built with simplicity in mind so the workflow is easy to follow.
+- Code is organized into small, clear steps for better understanding.
+- A notebook version is also included for easier explanation of the project.
+- Focus is more on clarity and understanding rather than over-optimization.
