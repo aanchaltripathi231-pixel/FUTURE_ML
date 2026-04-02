@@ -1,0 +1,10 @@
+original_ticket_type,mapped_category,original_priority,mapped_priority
+Billing inquiry,Billing,,
+Refund request,Billing,,
+Technical issue,Technical Issue,,
+Cancellation request,Account,,
+Product inquiry,General Query,,
+,,Critical,High
+,,High,High
+,,Medium,Medium
+,,Low,Low
