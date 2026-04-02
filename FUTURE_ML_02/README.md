@@ -113,6 +113,24 @@ Best result from the latest run:
 
 The scores are not extremely high because this dataset is fairly synthetic and several ticket classes overlap a lot in wording. I kept the project honest and saved the real evaluation outputs instead of hiding that.
 
+## Visual Outputs
+
+### Category Class Distribution
+
+![Category Class Distribution](outputs/visuals/category_class_distribution.png)
+
+### Priority Class Distribution
+
+![Priority Class Distribution](outputs/visuals/priority_class_distribution.png)
+
+### Category Confusion Matrix
+
+![Category Confusion Matrix](outputs/visuals/category_confusion_matrix.png)
+
+### Priority Confusion Matrix
+
+![Priority Confusion Matrix](outputs/visuals/priority_confusion_matrix.png)
+
 ## How To Run
 
 Install required libraries if needed:
