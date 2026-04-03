@@ -4,7 +4,7 @@ This project focuses on classifying and prioritizing support tickets using NLP a
 
 ## Problem Statement
 
-Support teams receive a lot of tickets every day, and reading each one manually takes time. This project helps by:
+Support teams often receive a lot of tickets every day, and reading each one manually takes time , This project helps by:
 
 - classifying each support ticket into a business category
 - predicting how urgent the ticket is
