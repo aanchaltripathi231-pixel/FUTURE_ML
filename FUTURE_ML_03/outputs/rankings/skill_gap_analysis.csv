@@ -1,0 +1,9 @@
+candidate_id,candidate_name,matched_skills,missing_skills,matched_skill_count,missing_skill_count
+C001,Aarav Mehta,"excel, machine learning, nlp, pandas, python, sql","communication, cosine similarity, data preprocessing, feature engineering, model evaluation, spacy",6,6
+C002,Neha Sharma,"communication, excel, python, sql","cosine similarity, data preprocessing, feature engineering, machine learning, model evaluation, nlp, pandas, spacy",4,8
+C003,Rohan Iyer,"communication, data preprocessing, feature engineering, machine learning, nlp, python, sql","cosine similarity, excel, model evaluation, pandas, spacy",7,5
+C004,Priya Verma,"communication, excel","cosine similarity, data preprocessing, feature engineering, machine learning, model evaluation, nlp, pandas, python, spacy, sql",2,10
+C005,Aditya Singh,"excel, machine learning, python, sql","communication, cosine similarity, data preprocessing, feature engineering, model evaluation, nlp, pandas, spacy",4,8
+C006,Simran Kaur,"communication, excel, machine learning, nlp, python, sql","cosine similarity, data preprocessing, feature engineering, model evaluation, pandas, spacy",6,6
+C007,Vikram Rao,"machine learning, model evaluation, nlp, python, spacy, sql","communication, cosine similarity, data preprocessing, excel, feature engineering, pandas",6,6
+C008,Kavya Nair,"communication, excel, machine learning","cosine similarity, data preprocessing, feature engineering, model evaluation, nlp, pandas, python, spacy, sql",3,9

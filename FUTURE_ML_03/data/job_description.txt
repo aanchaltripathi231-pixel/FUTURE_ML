@@ -1,0 +1,5 @@
+We are hiring a Machine Learning Engineer for an HR-tech resume screening platform.
+
+The role requires strong Python and SQL skills, hands-on machine learning knowledge, and practical experience with NLP pipelines. Candidates should understand TF-IDF, cosine similarity, data preprocessing, feature engineering, and model evaluation. Experience with spaCy, scikit-learn, pandas, and Excel is a plus.
+
+The ideal candidate can build ranking systems, extract skills from resumes, communicate results clearly, and work with recruiters and business teams. Good communication and problem-solving skills are important.

@@ -1,0 +1,9 @@
+rank,candidate_id,candidate_name,similarity_score,skill_match_ratio,weighted_skill_score,final_score,matched_skills
+1,C003,Rohan Iyer,0.2062,0.5833,11.6,0.4435,"communication, data preprocessing, feature engineering, machine learning, nlp, python, sql"
+2,C007,Vikram Rao,0.1483,0.5,10.4,0.37,"machine learning, model evaluation, nlp, python, spacy, sql"
+3,C001,Aarav Mehta,0.1409,0.5,10.0,0.3595,"excel, machine learning, nlp, pandas, python, sql"
+4,C006,Simran Kaur,0.1036,0.5,9.9,0.3357,"communication, excel, machine learning, nlp, python, sql"
+5,C005,Aditya Singh,0.0626,0.3333,6.9,0.2244,"excel, machine learning, python, sql"
+6,C002,Neha Sharma,0.0774,0.3333,6.1,0.2213,"communication, excel, python, sql"
+7,C008,Kavya Nair,0.0428,0.25,4.3,0.1527,"communication, excel, machine learning"
+8,C004,Priya Verma,0.045,0.1667,2.3,0.1031,"communication, excel"
