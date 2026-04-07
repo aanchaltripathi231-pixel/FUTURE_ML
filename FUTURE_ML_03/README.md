@@ -1,6 +1,6 @@
 # Resume / Candidate Screening System
 
-This project is a small HR-tech style machine learning pipeline that reads resumes, compares them with a job description, and ranks candidates based on how well they fit the role.
+This project is a small HR-tech style machine learning pipeline that reads resumes, compares them with a job description  and ranks candidates based on how well they fit the role.
 
 ## Problem Statement
 
@@ -80,4 +80,4 @@ After running the project, you will get:
 
 - Sample resumes and a sample job description are already included so the project runs end-to-end.
 - You can replace the sample files in `data/` with your own resume dataset later.
-- The code is modular to make it easier to improve or expand.
+- The code is modular to make it easier to improve or expand easily.
