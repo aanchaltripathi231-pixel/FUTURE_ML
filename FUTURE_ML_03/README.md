@@ -1,6 +1,6 @@
 # Resume / Candidate Screening System
 
-This project is a small HR-tech style machine learning pipeline that reads resumes, compares them with a job description  and ranks candidates based on how well they fit the role.
+This project is a simple machine learning system that reads resumes, compares them with a given job description, and ranks candidates based on how well they match the role.
 
 ## Problem Statement
 
@@ -12,15 +12,15 @@ The system takes a set of resumes and one job description, cleans the text, extr
 
 ## Main Features
 
-- Resume and job description preprocessing
-- Skill extraction using spaCy plus a predefined keyword list
-- TF-IDF based text vectorization
-- Cosine similarity scoring
-- Weighted skill matching
-- Candidate ranking
-- Skill gap analysis showing matched and missing skills
-- Top 5 candidate view
-- Auto-generated Jupyter notebook summary
+- Cleans and prepares resume and job description text
+- Extracts important skills using spaCy and a basic keyword list
+- Converts text into numerical form using TF-IDF
+- Compares resumes with the job description using similarity scores
+- Matches skills and gives weight to important ones
+- Ranks candidates based on how well they fit the role
+- Shows which skills are matched and which are missing
+- Displays top 5 best-matching candidates
+- Includes a notebook for a clear step-by-step view
 
 ## How It Helps Businesses
 
@@ -78,6 +78,6 @@ After running the project, you will get:
 
 ## Notes
 
-- Sample resumes and a sample job description are already included so the project runs end-to-end.
-- You can replace the sample files in `data/` with your own resume dataset later.
-- The code is modular to make it easier to improve or expand easily.
+- Sample resumes and a job description are included so the project runs smoothly from start to finish.
+- You can replace the files in the `data/` folder with your own dataset anytime.
+- The code is kept simple and modular so it’s easy to understand and modify.
